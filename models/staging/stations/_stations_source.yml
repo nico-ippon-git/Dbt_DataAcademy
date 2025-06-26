@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: raw_data  
+    database: MOKER_DB_VELIB_DATACADEMY
+    schema: PUBLIC
+    tables:
+      - name: RAW_STATION_INFORMATION
+        description: "Station metadata coming from raw ingestion"
+      - name: RAW_STATION_STATUS
+        description: "Unique identifier of the station"
